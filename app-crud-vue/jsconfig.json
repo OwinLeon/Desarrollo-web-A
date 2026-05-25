@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "ignoreDeprecations": "6.0",
+    "module": "esnext",
+    "baseUrl": ".",
+  
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ]
+  }
+}
